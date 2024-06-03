@@ -1,0 +1,74 @@
+/* Estilos base para a alerta de uso de água */
+.waterUsageAlert {
+  background-image: url('/ocean.jpg');
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover; 
+  min-height: 200px;
+  height: 100vh;
+}
+
+.waterUsageAlert h2 {
+  color: #009c1a;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.waterUsageAlert p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.waterUsageAlert span {
+  font-weight: bold;
+}
+
+.smile img{
+  width: 100%; 
+  max-width: 150px; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+.waterUsageAlert {
+      padding: 10px;
+  }
+
+.waterUsageAlert h2 {
+      font-size: 18px;
+  }
+
+.waterUsageAlert p {
+      font-size: 14px;
+  }
+
+.smile img{
+      max-width: 120px; 
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+.waterUsageAlert {
+      padding: 15px;
+  }
+
+.waterUsageAlert h2 {
+      font-size: 20px;
+  }
+
+.waterUsageAlert p {
+      font-size: 15px;
+  }
+
+.smile img{
+      max-width: 130px; 
+  }
+}
