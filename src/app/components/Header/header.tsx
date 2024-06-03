@@ -17,13 +17,15 @@ const Header = () => {
           <a href="/" className="header__icon">
             <img src="/water.png" alt="Water drop" />
           </a>
-          <a href="/login" className="header__icon">
+          <a href="/" className="header__icon">
             <img src="/login.png" alt="Login" />
           </a>
-          <a href="/login" className="header__icon">
+          <a href="/" className="header__icon">
             <img src="/singout.png" alt="Singout" />
           </a>
+          <a href='/cadastro'>
           <button className="header__button">Registre-se</button>
+          </a>
         </div>
       </div>
     </header>
