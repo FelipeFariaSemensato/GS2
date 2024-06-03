@@ -1,0 +1,19 @@
+.water-consumption{
+    display: flex;
+    align-items: center;
+    background-image: url('/ocean.jpg');
+    height: 80vh;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.text{
+    color:white;
+    font-size: 24px;
+    margin-right: 100px;
+}
+
+.water-drop{
+    margin-left: 100px;
+}
+
