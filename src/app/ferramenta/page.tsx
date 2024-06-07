@@ -11,7 +11,7 @@ function App() {
   const [agua, setAgua] = useState('');
   const [resultado, setResult] = useState('');
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     const loucaValue = parseFloat(louca);
